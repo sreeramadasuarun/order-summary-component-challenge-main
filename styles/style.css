@@ -39,6 +39,8 @@
       align-items: center;
       gap: 1.6rem;
       padding-bottom: 25px;
+      box-shadow: 2px 5px 10px 10px rgba(84, 76, 236, 0.123);
+
   }
 
   .card-image img {
@@ -46,7 +48,7 @@
   }
 
   .card-tittle {
-      font-size: 0.9rem;
+      font-size: 1.4rem;
       color: hsl(223, 47%, 23%);
       font-weight: 900;
   }
@@ -55,15 +57,25 @@
       text-align: center;
       font-size: 0.7rem;
       width: 85%;
+      color: hsl(224, 23%, 55%);
   }
 
 
 
   .btn-box button {
-      padding: 10px 50px;
+      padding: 9px 50px;
       font-weight: 700;
       background-color: hsl(245, 75%, 52%);
       border: 4px solid hsl(245, 75%, 52%);
       border-radius: 11px;
       color: hsl(225, 100%, 98%);
+      cursor: pointer;
+      box-shadow: 2px 5px 10px 10px rgba(84, 76, 236, 0.123);
+  }
+
+  .link {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: hsl(224, 23%, 55%);
+
   }
