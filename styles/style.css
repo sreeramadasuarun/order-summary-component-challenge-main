@@ -94,17 +94,23 @@
       display: flex;
       flex-direction: row;
       background-color: aliceblue;
-      gap: 5rem;
+      /* gap: 5rem; */
+      gap: 3.8rem;
       border-radius: 10px;
       align-items: center;
       width: 85%;
       padding: 10px
   }
 
+  .image-plan {
+      width: 2rem;
+      margin-right: -3rem;
+  }
+
   .annual-plan {
       font-size: 0.7rem;
       color: hsl(224, 23%, 55%);
-      line-height: 1rem;
+      line-height: 1.2rem;
       font-weight: 700;
   }
 
@@ -117,10 +123,11 @@
       text-decoration: underline;
   }
 
+  /* 
   .flex-right {
       display: flex;
       flex-direction: row;
       align-items: center;
       gap: 0.7rem;
       justify-content: flex-start;
-  }
+  } */
